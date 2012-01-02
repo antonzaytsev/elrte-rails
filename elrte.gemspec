@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.name        = "elrte"
   s.version     = Elrte::VERSION
   s.authors     = ["Anton"]
-  s.email       = ["antonzaycev55@gmail.com"]
+  s.email       = ["info@antonzaytsev.com"]
   s.homepage    = ""
   s.summary     = %q{TODO: Write a gem summary}
   s.description = %q{TODO: Write a gem description}
