@@ -2,11 +2,17 @@
 
 == Requirments
 
-* Rails 3.x (3.1.x is desirable)
+* Rails 3.1 (need asset pipline, feel free to help me add 3.0 support)
+* gem {el_finder}[https://github.com/phallstrom/el_finder]
 
 == Installation
 
-
+1. Add "gem 'eltre'" to Gemfile
+2. call "bundle install" in your terminal to install gem
+3. call "rails g eltre:install" to generate needed files
+4. add "//= require elrte" in needed javascript file (application.js or may be active_admin.js)
+5. add "@import 'elrte';" in needed stylesheet file (application.css.scss or may be active_admin.css.scss)
+5. add class 'editor' to needed field and check eltre editor instead of it with elfinder support
 
 == Help
 
@@ -14,6 +20,7 @@ Need your feasible help. Feel free to add issue about found bugs, send me pull r
 
 == Related projects
 
+{elRTE on Github}[https://github.com/Studio-42/elRTE]
 [https://github.com/phallstrom/el_finder] by {phallstrom}[https://github.com/phallstrom]
 
 == Contributing

@@ -1,10 +1,10 @@
 require "elrte/version"
 require 'elrte/application'
 require 'elrte/engine'
-require 'elrte/controllers/base_controller'
-require 'elrte/controllers/elfinder_controller'
 
 module Elrte
+
+  autoload :DependencyChecker, 'elrte/dependency_checker'
 
   class << self
 
@@ -18,8 +18,6 @@ module Elrte
     def setup
       application = Elrte::Application.new
       application.register_default_assets
-
-      Rails.application.config.assets.paths << File.expand_path(__FILE__, '../vendor/elfinder/js')
     end
 
     delegate :routes,        :to => :application

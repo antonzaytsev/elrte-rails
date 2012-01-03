@@ -1,0 +1,8 @@
+// Styles to fix styles conflicts with Active Admin
+#active_admin_content{
+  .elrte-editor{
+    .panel-media .flash{
+      top: 0;
+    }
+  }
+}
