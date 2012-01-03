@@ -3,13 +3,14 @@ $:.push File.expand_path("../lib", __FILE__)
 require "elrte/version"
 
 Gem::Specification.new do |s|
-  s.name        = "elrte"
+  s.name        = %q{elrte}
   s.version     = Elrte::VERSION
-  s.authors     = ["Anton"]
+  s.platform    = Gem::Platform::RUBY
+  s.authors     = ["Anton Zaytsev"]
   s.email       = ["info@antonzaytsev.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Provides WYSIWYG editor Elrte for Rails}
+  s.description = %q{Provides WYSIWYG editor Elrte for Rails}
 
   s.rubyforge_project = "elrte"
 
@@ -17,6 +18,12 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
+
+  s.add_dependency("rails", ">= 3.0.0")
+  s.add_dependency("jquery-rails", ">= 1.0.0")
+  s.add_dependency("inherited_resources", "< 1.3.0")
+  s.add_dependency("sass", ">= 3.1.0")
+  s.add_dependency("el_finder", "> 0")
 
   # specify any dependencies here; for example:
   # s.add_development_dependency "rspec"

@@ -1,16 +1,34 @@
 require "elrte/version"
 require 'elrte/application'
 require 'elrte/engine'
+require 'elrte/controllers/base_controller'
+require 'elrte/controllers/elfinder_controller'
 
 module Elrte
 
-  # Gets called within the initializer
-  def self.setup
+  class << self
 
-    application = Elrte::Application.new
-    application.register_default_assets
+    attr_accessor :application
 
-    Rails.application.config.assets.paths << File.expand_path(__FILE__, '../vendor/elfinder/js')
+    def application
+      @application ||= ::Elrte::Application.new
+    end
+    
+    # Gets called within the initializer
+    def setup
+      application = Elrte::Application.new
+      application.register_default_assets
+
+      Rails.application.config.assets.paths << File.expand_path(__FILE__, '../vendor/elfinder/js')
+    end
+
+    delegate :routes,        :to => :application
+
+    # Returns true if this rails application has the asset
+    # pipeline enabled.
+    def use_asset_pipeline?
+      DependencyChecker.rails_3_1? && Rails.application.config.try(:assets).try(:enabled)
+    end
 
   end
 

@@ -1,5 +1,26 @@
 == Elrte Rails
 
+== Requirments
+
+* Rails 3.x (3.1.x is desirable)
+
+== Installation
+
+
+
 == Help
 
 Need your feasible help. Feel free to add issue about found bugs, send me pull request with fixes.
+
+== Related projects
+
+[https://github.com/phallstrom/el_finder] by {phallstrom}[https://github.com/phallstrom]
+
+== Contributing
+
+* Fork it.
+* Create a branch (git checkout -b critical_bug)
+* Commit your changes (git commit -am "Fixed critical bug")
+* Push to the branch (git push origin critical_bug)
+* Create an Issue with a link to your branch
+* Wait

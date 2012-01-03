@@ -1,3 +1,5 @@
+require 'elrte/router'
+
 module Elrte
   class Application
     #include Settings
@@ -173,19 +175,19 @@ module Elrte
     #def files_in_load_path
     #  load_paths.flatten.compact.uniq.collect{|path| Dir["#{path}/**/*.rb"] }.flatten
     #end
-    #
-    #def router
-    #  @router ||= Router.new(self)
-    #end
-    #
-    #def routes(rails_router)
-    #  # Ensure that all the configurations (which define the routes)
-    #  # are all loaded
-    #  load!
-    #
-    #  router.apply(rails_router)
-    #end
-    #
+
+    def router
+      @router ||= Router.new(self)
+    end
+    
+    def routes(rails_router)
+      # Ensure that all the configurations (which define the routes)
+      # are all loaded
+      #load!
+
+      router.apply(rails_router)
+    end
+
     #def load_default_namespace
     #  find_or_create_namespace(default_namespace)
     #end
