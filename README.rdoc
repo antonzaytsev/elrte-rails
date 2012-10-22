@@ -7,12 +7,12 @@
 
 == Installation
 
-1 Add "gem 'eltre'" to Gemfile
-2 call "bundle install" in your terminal to install gem
-3 call "rails g eltre:install" to generate needed files
-4 add "//= require elrte" in needed javascript file (application.js or may be active_admin.js)
-5 add "@import 'elrte';" in needed stylesheet file (application.css.scss or may be active_admin.css.scss)
-6 add class 'editor' to needed field and check eltre editor instead of it with elfinder support
+1. Add "gem 'elrte'" to Gemfile
+2. Call "bundle install" in your terminal to install gem
+3. Call "rails g elrte:install" to generate needed files
+4. Add "//= require elrte" in needed javascript file (application.js or may be active_admin.js)
+5. Add "@import 'elrte';" in needed stylesheet file (application.css.scss or may be active_admin.css.scss)
+6. Add class 'editor' to needed field and check eltre editor instead of it with elfinder support
 
 == Help
 
@@ -25,9 +25,9 @@ Need your feasible help. Feel free to add issue about found bugs, send me pull r
 
 == Contributing
 
-1 Fork it.
-2 Create a branch (git checkout -b critical_bug)
-3 Commit your changes (git commit -am "Fixed critical bug")
-4 Push to the branch (git push origin critical_bug)
-5 Create an Issue with a link to your branch
-6 Wait
+1. Fork it.
+2. Create a branch (git checkout -b critical_bug)
+3. Commit your changes (git commit -am "Fixed critical bug")
+4. Push to the branch (git push origin critical_bug)
+5. Create an Issue with a link to your branch
+6. Wait
