@@ -79,7 +79,7 @@ elRTE.prototype.i18Messages.fa = {
 	'Stop element floating'   : 'متوقف ساخت عنر شناور',
 	// dialogs
 	'Warning' : 'اخطار',
-	'Properies' : 'خصوصیات',
+	'Properties' : 'خصوصیات',
 	'Popup' : 'پنجر بازشو',
 	'Advanced' : 'پیشرفته',
 	'Events' : 'رویداد',

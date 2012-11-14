@@ -80,7 +80,7 @@ elRTE.prototype.i18Messages.hu = {
     'Stop element floating'   : 'Elem elrendezések törlése',
     // dialogs
     'Warning' : 'Figyelmeztetés',
-    'Properies' : 'Tulajdonságok',
+    'Properties' : 'Tulajdonságok',
     'Popup' : 'Popup',
     'Advanced' : 'Egyéni',
     'Events' : 'Események',

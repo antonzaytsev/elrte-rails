@@ -79,7 +79,7 @@ elRTE.prototype.i18Messages.it = {
 	'Stop element floating'   : 'Blocca elemento fluttuante',
 	// dialogs
 	'Warning' : 'Attenzione',
-	'Properies' : 'Propriet&agrave;',
+	'Properties' : 'Propriet&agrave;',
 	'Popup' : 'Popup',
 	'Advanced' : 'Avanzate',
 	'Events' : 'Eventi',

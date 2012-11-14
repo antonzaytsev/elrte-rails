@@ -80,7 +80,7 @@ elRTE.prototype.i18Messages.cs = {
 	'Stop element floating'   : 'Zrušit obtékání elementu',
 	// dialogs
 	'Warning' : 'Pozor',
-	'Properies' : 'Vlastnosti',
+	'Properties' : 'Vlastnosti',
 	'Popup' : 'Pop-up',
 	'Advanced' : 'Více',
 	'Events' : 'Události',

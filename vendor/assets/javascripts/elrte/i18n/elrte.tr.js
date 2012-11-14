@@ -80,7 +80,7 @@ elRTE.prototype.i18Messages.tr = {
 	'Stop element floating'   : 'Boşluk aldır (DIV)',
 	// dialogs
 	'Warning'          : 'Uyarı',
-	'Properies'        : 'Özellik',
+	'Properties'        : 'Özellik',
 	'Popup'            : 'Açılır',
 	'Advanced'         : 'Gelişmiş',
 	'Events'           : 'Olaylar',

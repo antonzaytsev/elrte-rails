@@ -79,7 +79,7 @@ elRTE.prototype.i18Messages.pl = {
 	'Stop element floating'   : 'Wyłącz otaczanie elementów',
 	// dialogs
 	'Warning' : 'Ostrzeżenie',
-	'Properies' : 'Właściwości',
+	'Properties' : 'Właściwości',
 	'Popup' : 'okienko Pop-up',
 	'Advanced' : 'Więcej',
 	'Events' : 'Wydarzenia',

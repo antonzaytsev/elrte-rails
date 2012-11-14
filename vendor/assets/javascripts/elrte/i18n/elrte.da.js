@@ -80,7 +80,7 @@ elRTE.prototype.i18Messages.da = {
 	'Stop element floating'   : 'Forhindre element forskydning',
 	// dialogs
 	'Warning'          : 'Advarsel',
-	'Properies'        : 'Egenskaber',
+	'Properties'        : 'Egenskaber',
 	'Popup'            : 'Popup',
 	'Advanced'         : 'Avanceret',
 	'Events'           : 'Hændelser',

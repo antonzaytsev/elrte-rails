@@ -80,7 +80,7 @@ elRTE.prototype.i18Messages.ru = {
 	'Stop element floating'   : 'Отключить обтекание элементов текстом',
 	// dialogs
 	'Warning' : 'Внимание',
-	'Properies' : 'Свойства',
+	'Properties' : 'Свойства',
 	'Popup' : 'Новое окно',
 	'Advanced' : 'Дополнительно',
 	'Events' : 'События',

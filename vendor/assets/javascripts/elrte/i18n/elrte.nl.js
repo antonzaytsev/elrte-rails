@@ -81,7 +81,7 @@ elRTE.prototype.i18Messages.nl = {
 	'Stop element floating' : '',
 // Dialogs
 	'Warning': 'Waarschuwing',
-	'Properies': 'Opties',
+	'Properties': 'Opties',
 	'Popup': 'Popup',
 	'Advanced': 'Geavanceerd',
 	'Events': 'Events',

@@ -79,7 +79,7 @@ elRTE.prototype.i18Messages.ca = {
 	'Stop element floating'   : 'Atura l\'element flotant',
 	// dialogs
 	'Warning' : 'Advertència',
-	'Properies' : 'Propietats',
+	'Properties' : 'Propietats',
 	'Popup' : 'Finestra emergent',
 	'Advanced' : 'Avançat',
 	'Events' : 'Incidències',

@@ -82,7 +82,7 @@ elRTE.prototype.i18Messages.zh_CN = {
 	'Stop element floating'   : '停止元素浮动属性',
 	// dialogs
 	'Warning' : '警告',
-	'Properies' : '属性',
+	'Properties' : '属性',
 	'Popup' : '弹出框',
 	'Advanced' : '高级',
 	'Events' : '事件',

@@ -79,7 +79,7 @@ elRTE.prototype.i18Messages.de = {
 	'Stop element floating'   : 'Floating deaktivieren',
 	// dialogs
 	'Warning' : 'ACHTUNG',
-	'Properies' : 'Einstellungen',
+	'Properties' : 'Einstellungen',
 	'Popup' : 'Pop-up',
 	'Advanced' : 'erweitert',
 	'Events' : 'Veranstaltungen',

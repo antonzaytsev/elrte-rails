@@ -80,7 +80,7 @@ elRTE.prototype.i18Messages.ko = {
 	'Stop element floating'   : '플로트 해제',
 	// dialogs
 	'Warning'          : '경고',
-	'Properies'        : '속성',
+	'Properties'        : '속성',
 	'Popup'            : '팝업',
 	'Advanced'         : '고급',
 	'Events'           : '이벤트',

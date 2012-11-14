@@ -80,7 +80,7 @@ elRTE.prototype.i18Messages.hr = {
 	'Stop element floating'   : 'Zaustavi plutajući element',
 	// dialogs
 	'Warning'          : 'Upozorenje',
-	'Properies'        : 'Svojstva',
+	'Properties'        : 'Svojstva',
 	'Popup'            : 'Skočni prozor',
 	'Advanced'         : 'Napredno',
 	'Events'           : 'Događaji',
