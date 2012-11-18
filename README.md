@@ -40,6 +40,8 @@ Need your feasible help. Feel free to add issue about found bugs, send me pull r
 Related projects
 == 
 
+* [Elrte demo](http://elrte.org/demo)
+* [Elfinder demo](http://elfinder.org/)
 * [elRTE on Github](https://github.com/Studio-42/elRTE)
 * [https://github.com/phallstrom/el_finder](https://github.com/phallstrom/el_finder) by [phallstrom](https://github.com/phallstrom)
 
