@@ -79,7 +79,7 @@ elRTE.prototype.i18Messages.fr = {
 	'Stop element floating'   : 'Interrompre le flottement de l\'élément',
 	// dialogs
 	'Warning' : 'Attention',
-	'Properies' : 'Propriété',
+	'Properties' : 'Propriété',
 	'Popup' : 'Nouvelle fenêtre',
 	'Advanced' : 'Avancé',
 	'Events' : 'Évènements',

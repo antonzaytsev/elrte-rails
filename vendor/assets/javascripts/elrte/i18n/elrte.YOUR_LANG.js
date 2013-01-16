@@ -86,7 +86,7 @@ elRTE.prototype.i18Messages.LANG_CODE = {
 	'Stop element floating'   : '',
 	// dialogs
 	'Warning'          : '',
-	'Properies'        : '',
+	'Properties'        : '',
 	'Popup'            : '',
 	'Advanced'         : '',
 	'Events'           : '',

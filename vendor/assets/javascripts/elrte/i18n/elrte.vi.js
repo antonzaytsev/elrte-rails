@@ -79,7 +79,7 @@ elRTE.prototype.i18Messages.vi = {
 	'Stop element floating'   : 'Stop element floating',
 	// dialogs
 	'Warning'          : 'Cảnh báo',
-	'Properies'        : 'Thuộc tính',
+	'Properties'        : 'Thuộc tính',
 	'Popup'            : 'Popup',
 	'Advanced'         : 'Nâng cao',
 	'Events'           : 'Sự kiện',

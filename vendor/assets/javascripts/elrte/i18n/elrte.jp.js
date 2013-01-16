@@ -80,7 +80,7 @@ elRTE.prototype.i18Messages.jp = {
 	'Stop element floating'   : 'フロートの解除',
 	// dialogs
 	'Warning' : '警告',
-	'Properies' : 'プロパティ',
+	'Properties' : 'プロパティ',
 	'Popup' : 'ポップアップ',
 	'Advanced' : 'アドバンス',
 	'Events' : 'イベント',

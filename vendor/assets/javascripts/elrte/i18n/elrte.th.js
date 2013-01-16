@@ -80,7 +80,7 @@ elRTE.prototype.i18Messages.th = {
 	'Stop element floating'   : 'องค์ประกอบหยุดลอย',
 	// dialogs
 	'Warning'          : 'คำเตือน',
-	'Properies'        : 'Properies',
+	'Properties'        : 'Properties',
 	'Popup'            : 'ป๊อปอัพ',
 	'Advanced'         : 'ขั้นสูง',
 	'Events'           : 'เหตุการณ์',

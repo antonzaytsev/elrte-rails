@@ -79,7 +79,7 @@ elRTE.prototype.i18Messages.ar = {
 	'Stop element floating'   : '',
 	// dialogs
 	'Warning' : 'تنبيه',
-	'Properies' : 'خصائص',
+	'Properties' : 'خصائص',
 	'Popup' : 'نافذة منبثقة',
 	'Advanced' : 'متقدم',
 	'Events' : 'الأحداث',

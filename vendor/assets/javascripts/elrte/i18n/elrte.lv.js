@@ -79,7 +79,7 @@ elRTE.prototype.i18Messages.lv = {
 	'Stop element floating'   : 'Atslēgt elementu apklāšanu ar tekstu',
 	// dialogs
 	'Warning' : 'Uzmanību',
-	'Properies' : 'Iestatījumi',
+	'Properties' : 'Iestatījumi',
 	'Popup' : 'Jauns logs',
 	'Advanced' : 'Papildus',
 	'Events' : 'Notikumi',
