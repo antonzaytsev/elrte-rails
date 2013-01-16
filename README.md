@@ -26,6 +26,11 @@ Require javascript file (in application.js or may be in active_admin.js)
 
     //= require elrte
 
+Also if include jquery if you need
+
+    //= require jquery
+    //= require jquery-ui
+
 Require stylesheet file (in application.css or may be in active_admin.css)
 
     @import 'elrte';
