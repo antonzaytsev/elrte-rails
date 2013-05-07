@@ -14,7 +14,7 @@ module Elrte
     #   end
     #
     def apply(router)
-      router.send('match', {'elfinder' => 'elfinder#connector', :as => 'elfinder_connector'})
+      router.send('get', {'elfinder' => 'elfinder#connector', :as => 'elfinder_connector'})
       #p @application.namespaces.values
       #router.instance_exec(@application.namespaces.values) do |namespaces|
       #  namespaces.each do |namespace|
