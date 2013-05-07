@@ -14,20 +14,7 @@ module Elrte
     #   end
     #
     def apply(router)
-      router.send('get', {'elfinder' => 'elfinder#connector', :as => 'elfinder_connector'})
-      #p @application.namespaces.values
-      #router.instance_exec(@application.namespaces.values) do |namespaces|
-      #  namespaces.each do |namespace|
-      #    match '/elfinder' => 'Elfinder#connector', :as => 'elfinder_connector'
-      #    #if namespace.root?
-      #    #  match '/' => 'dashboard#index', :as => 'dashboard'
-      #    #else
-      #    #  name = namespace.name
-      #    #  match name.to_s => "#{name}/dashboard#index", :as => "#{name.to_s}_dashboard"
-      #    #end
-      #  end
-      #end
-
+      router.send(:get, {:elfinder => 'elfinder#connector', :as => 'elfinder_connector'})
     end
 
   end
