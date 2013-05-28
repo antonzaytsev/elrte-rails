@@ -14,7 +14,7 @@ module Elrte
     #   end
     #
     def apply(router)
-      router.send(:get, {'elfinder' => 'elfinder#connector', :as => 'elfinder_connector'})
+      router.send(:match, {'elfinder' => 'elfinder#connector', :as => 'elfinder_connector', :via => [:get, :post]})
     end
 
   end
