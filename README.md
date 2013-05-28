@@ -10,7 +10,7 @@ Requirments
 Installation
 ------------
 
-Include gem into to your Gemfile
+Add this line to your Gemfile
 
      gem 'elrte'
 
@@ -24,16 +24,16 @@ Generate gem files
 
 Require javascript file (in application.js or may be in active_admin.js)
 
-    //= require elrte
+    //= require elrte/base
 
-Also if include jquery if you need
+Also include jquery if you need
 
     //= require jquery
     //= require jquery-ui
 
 Require stylesheet file (in application.css or may be in active_admin.css)
 
-    @import 'elrte';
+    @import 'elrte/base';
 
 Add class 'editor' to needed fields and you will see WYSIWYG elfinder editor instead of textareas
 
